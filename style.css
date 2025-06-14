@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #fef7f7;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.amazon-logo{
+     width: 100px;
+     height: 30px;
+  display: block;
+  margin: 0 auto 20px;
+  padding-top: 20px; 
+}
+
+
+.box1 {
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+    width: 330px;
+   
+    
+} 
+.sign-in{
+    text-decoration: aqua;
+}
+.main{
+    
+    border: 1px solid black;
+} 
+
+input{
+    width: 320px;
+    height: 25px;
+    outline: 1 px solid aqua;
+
+}
+
+.conditions {
+    padding-top: 10px;
+   
+    
+}
+.help{
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgb(89, 87, 87);
+}
+ button{
+    border-radius: 25px;
+    height: 30px;
+    width: 320px;
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 1px 6px;
+    border: none;
+}
+.work{
+    padding-top: 15px;
+}
+
+.foot-area {
+    background-color: rgb(248, 245, 245);
+    height: 20px;
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px soild black;
+}
+.text{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+
+}
+hr{
+
+    color: black;
+    margin-top: 30px;
+    width: 100%;
+}
+
